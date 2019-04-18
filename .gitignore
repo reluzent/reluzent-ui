@@ -1,0 +1,45 @@
+.DS_Store
+**/node_modules
+reluzent-core.pem
+deploy.md
+
+
+# Log files
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/log
+**/**.log
+
+# Editor directories and files
+**/.idea
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw*
+**/*.lock
+**/.vscode
+
+
+# Remove logs
+**/logs/**
+
+# Remove env configs ONLY BACKEND
+frontend/.env.production
+frontend/.env.development
+frontend/.env.local
+**/envs/**
+backend/.env
+
+# Always keep gitkeep
+!.gitkeep
+
+# -------------------------------------------------------------------
+# FRONT-END
+frontend/dist
+
+# -------------------------------------------------------------------
+# BACKEND
+
+backend/.nyc_output/
